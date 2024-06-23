@@ -1,4 +1,4 @@
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 37, 45, 87];
 
 function binarySearch(arr, val) {
   let leftIdx = 0;
@@ -26,5 +26,6 @@ function binarySearch(arr, val) {
 }
 
 console.log(binarySearch(nums, 5));
-console.log(binarySearch(nums, 9));
-console.log(binarySearch(nums, 11));
+console.log(binarySearch(nums, 12));
+console.log(binarySearch(nums, 37));
+console.log(binarySearch(nums, 53));

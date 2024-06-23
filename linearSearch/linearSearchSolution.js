@@ -64,3 +64,17 @@ console.log(searchRnBGroup(destinysChild, "Letoya", dcFormerMembers));
 
 console.log(searchRnBGroup(["KC", "Jojo"], "KC"));
 console.log(searchRnBGroup(["KC", "Jojo"], "kc"));
+
+function factors(n) {
+  const searchRange = Math.floor(n / 2);
+  let factors = [];
+
+  for (let i = 2; i <= searchRange; i++) {
+    if (n % i == 0) {
+      factors.push(i);
+    }
+  }
+  console.log(factors);
+}
+
+factors(377);
